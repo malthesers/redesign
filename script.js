@@ -1,8 +1,8 @@
-$(window).on("scroll", function () {
+window.onscroll = function () {
     console.log("scroll")
-    if ($(window).scrollTop() > 25) {
-        $(".header").addClass("active");
+    if (window.scrollY > 25) {
+        document.querySelector(".header").classList.add("active");
     } else {
-        $(".header").removeClass("active");
+        document.querySelector(".header").classList.remove("active");
     }
-})
+}
