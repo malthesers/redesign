@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;
+}
+
+#videoBG {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header {
+    position: fixed;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.active {
+    background: black;
+}
