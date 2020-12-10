@@ -18,7 +18,7 @@ body {
     }
 }
 
-.header {
+#header {
     position: fixed;
     color: white;
     font-size: 2rem;
