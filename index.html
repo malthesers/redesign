@@ -14,16 +14,31 @@
 
 <body>
     <header id="header" class="active">
-        <a class="header_icon icon_menu">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </a>
-        <a href="index.html">MALENE HOCKE</a>
-        <a class="header_icon icon_search">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </a>
-        <a class="header_icon icon_basket">
-            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-        </a>
+        <nav>
+            <a class="header_icon icon_menu pointer">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+            <a class="header_icon icon_menuOff pointer">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </a>
+            <a href="index.html">MALENE HOCKE</a>
+            <a class="header_icon icon_search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            <a class="header_icon icon_basket">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            </a>
+        </nav>
+        <ul id="menu" class="hide">
+            <hr>
+            <li><a href="productlist.html">Produkter</a></li>
+            <hr>
+            <li><a href="contact.html">Kontakt</a></li>
+            <hr>
+            <li><a href="about.html">Om os</a></li>
+            <hr>
+            <li><a href="tos.html">Betingelser og vilkår</a></li>
+        </ul>
     </header>
     <main>
         <section id="section_landing">
@@ -31,6 +46,10 @@
                 <video id="videoBG" autoplay loop muted>
                     <source src="baggrundsvideo/videoBG.mp4">
                 </video>
+                <div id="video_text">
+                    <h1>MALENE HOCKE</h1>
+                    <a href="productpage.html">SE KOLLEKTION</a>
+                </div>
             </div>
         </section>
         <section id="section_info">
@@ -54,7 +73,7 @@
         </div>
         <p>Copyright © 2020 MALENE HOCKE.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script_front.js"></script>
 </body>
 
 </html>

@@ -3,9 +3,12 @@ body {
     overflow-x: hidden;
 }
 
+/*------------landing------------*/
+
+
+
 #videoBG {
-    /*
-    position: absolute;*/
+    position: relative;
     z-index: -1;
     width: 100%;
     height: auto;
@@ -27,6 +30,43 @@ body {
         max-height: 812px;
     }
 }
+
+#video_text {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+}
+
+#video_text h1 {
+    color: white;
+    margin-bottom: 20rem;
+}
+
+#video_text a {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: #B79697;
+    padding: 10px;
+    border: 2px solid #B79697;
+    text-decoration: none;
+
+}
+
+#video_text a:hover {
+    background: #B79697;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+
+
+/*------------info------------*/
+
 
 #section_info {
     margin: 5vw;
