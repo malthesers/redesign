@@ -26,7 +26,7 @@ header a {
     position: fixed;
     width: 100%;
     text-align: center;
-    padding: 3vw 0;
+    padding: 10px 0;
 }
 
 .active {
@@ -52,4 +52,18 @@ header a {
 
 .icon_search {
     right: 55px;
+}
+
+/*--------------footer---------------*/
+footer {
+    background: #B79697;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+.footer_icon {
+    margin: 10px;
+    display: inline-block;
 }
