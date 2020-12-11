@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+}
+
+/*--------------fonts----------------*/
+h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/*--------------header---------------*/
+header a {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 3vw 0;
+}
+
+.active {
+    background: #B79697;
+}
+
+.fa {
+    color: white;
+    font-size: 2rem;
+}
+
+.header_icon {
+    position: absolute;
+}
+
+.icon_menu {
+    left: 15px;
+}
+
+.icon_basket {
+    right: 15px;
+}
+
+.icon_search {
+    right: 55px;
+}
