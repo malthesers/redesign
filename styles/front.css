@@ -5,12 +5,10 @@ body {
 
 /*------------landing------------*/
 
-
-
 #videoBG {
     position: relative;
     z-index: -1;
-    width: 100%;
+    width: 100vw;
     height: auto;
     top: 0;
     left: 0;
@@ -26,14 +24,12 @@ body {
 @media (max-aspect-ratio: 16/9) {
     #videoBG {
         width: auto;
-        height: 100%;
-        max-height: 812px;
+        height: 100vh;
     }
 }
 
 #video_text {
     position: absolute;
-    display: inline-block;
     text-align: center;
     width: 100%;
     top: 20%;
@@ -64,10 +60,14 @@ body {
 }
 
 
-
 /*------------info------------*/
-
 
 #section_info {
     margin: 5vw;
+}
+
+/*------------info------------*/
+
+#section_items .section_wrapper {
+    display: grid;
 }
