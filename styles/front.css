@@ -3,10 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-img {
-    width: 100%;
-}
-
 #section_info,
 #section_items,
 #section_mailform {

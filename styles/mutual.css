@@ -2,6 +2,14 @@ body {
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .hide {
     display: none;
 }
@@ -128,6 +136,7 @@ footer {
     color: white;
     padding: 10px 0;
     font-size: 2rem;
+    margin-top: 3rem;
 }
 
 .footer_icon {

@@ -2,8 +2,6 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("sidenVises");
-    document.querySelector("#header").classList.remove("active");
-    document.querySelector(".icon_menuOff").classList.add("hide");
     document.querySelector(".icon_menu").addEventListener("click", showMenu);
 }
 
