@@ -66,6 +66,11 @@ body {
     color: white;
 }
 
+header a,
+.fa {
+    color: black;
+}
+
 /*------------items------------*/
 
 #section_items .grid_items {

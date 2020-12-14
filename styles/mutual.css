@@ -62,7 +62,7 @@ p {
 header a {
     font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.6rem;
     display: inline-block;
 }
@@ -84,7 +84,7 @@ header a {
 }
 
 .fa {
-    color: black;
+    color: white;
     font-size: 2rem;
 }
 

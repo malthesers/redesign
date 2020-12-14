@@ -1,6 +1,6 @@
 window.addEventListener("load", sidenVises);
 
-var whiteHeader = document.querySelectorAll("header a, .fa");
+var whiteHeader = document.querySelectorAll("header a, header i");
 
 window.onscroll = function () {
     console.log("scroll");
