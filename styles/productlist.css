@@ -9,6 +9,29 @@ body {
     max-width: 1400px;
 }
 
+.product {
+    text-align: center;
+    background-color: #B79697;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 83%;
+    border: 3px solid;
+}
+
+.item {
+    text-align: center;
+}
+
+.top h5 {
+    font-size: 19px;
+}
+
+.bottom h6 {
+    font-size: 15px;
+}
+
 img {
     100%;
 }
