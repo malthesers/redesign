@@ -3,6 +3,12 @@ body {
     overflow-x: hidden;
 }
 
+#productlist {
+    margin: 0 7vw;
+    padding-top: 100px;
+    max-width: 1400px;
+}
+
 img {
     100%;
 }
@@ -11,8 +17,8 @@ img {
 .row_items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .item {
