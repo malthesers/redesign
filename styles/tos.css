@@ -1,0 +1,25 @@
+header {
+    top: 0
+}
+
+#section_tos {
+    margin: 0 7vw;
+    padding-top: 75px;
+    max-width: 1400px;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.2rem;
+    margin: 0.7rem auto;
+}
+
+#section_tos a {
+    color: rosybrown;
+    text-decoration: none;
+}
