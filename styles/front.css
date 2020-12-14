@@ -10,6 +10,10 @@ body {
     max-width: 1400px;
 }
 
+.white {
+    color: white;
+}
+
 /*------------landing------------*/
 
 #videoBG {

@@ -1,11 +1,19 @@
 window.addEventListener("load", sidenVises);
 
+var whiteHeader = document.querySelectorAll("header a, .fa");
+
 window.onscroll = function () {
     console.log("scroll");
     if (window.scrollY > 25) {
         document.querySelector("#header").classList.add("active");
+        whiteHeader.forEach(function (makeHeaderWhite) {
+            makeHeaderWhite.classList.add("white");
+        })
     } else {
         document.querySelector("#header").classList.remove("active");
+        whiteHeader.forEach(function (makeHeaderBlack) {
+            makeHeaderBlack.classList.remove("white");
+        })
     }
 }
 
