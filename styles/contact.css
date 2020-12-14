@@ -1,0 +1,109 @@
+body,
+html {
+    height: 100vh;
+}
+
+#section_contact {
+    margin: 0 7vw;
+    padding-top: 75px;
+    max-width: 1400px;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.7rem auto;
+}
+
+/*------------contactform------------*/
+
+.info_line {
+    display: grid;
+    grid-template-columns: 1fr 19fr;
+}
+
+.col_info .fa,
+.col_info p,
+.col_info a {
+    color: black;
+    display: inline-block;
+}
+
+.col_info .fa {
+    margin: 0.5rem auto;
+}
+
+.col_info a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem 5px;
+    text-decoration: none;
+}
+
+/*------------contactform------------*/
+
+.col_form {
+    line-height: 1.5rem;
+}
+
+form {
+    text-align: center;
+}
+
+form input,
+textarea {
+    border: 2px solid #B79697;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+form button {
+    font-family: 'Roboto', sans-serif;
+    background: #B79697;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+
+#message {
+    height: 30vw;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width:1100px) {
+    #section_contact {
+        padding-top: 150px;
+    }
+
+    #section_contact .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #message {
+        height: 10vw;
+    }
+}
+
+@media (min-width:1400px) {
+    #section_contact {
+        margin: 0 auto;
+    }
+}

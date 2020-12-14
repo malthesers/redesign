@@ -4,14 +4,129 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt os</title>
-    <link rel="stylesheet" href="styles/contact.css">
+    <title>Kontakt</title>
     <link rel="stylesheet" href="styles/mutual.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex" />
 </head>
 
 <body>
+    <header id="header" class="active">
+        <nav>
+            <div id="header_top">
+                <a class="header_icon icon_menu pointer">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <a class="header_icon icon_menuOff pointer hide">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+                <a href="index.html">MALENE HOCKE</a>
+                <a class="header_icon icon_search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+                <a class="header_icon icon_basket">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div id="header_bottom">
+                <a href="productlist.html">Jakker</a>
+                <a href="productlist.html">Kjoler</a>
+                <a href="productlist.html">Halstørklæder</a>
+                <a href="productlist.html">Tasker</a>
+                <a href="productlist.html">Trøjer</a>
+                <a href="productlist.html">Mundbind</a>
+                <a href="productlist.html">Udsalg</a>
+                <a href="contact.html">Kontakt</a>
+                <a href="about.html">Om os</a>
+                <a href="tos.html">Betingelser og vilkår</a>
+            </div>
+        </nav>
+        <ul id="menu" class="hide">
+            <hr>
+            <li><a href="productlist.html">Jakker</a></li>
+            <hr>
+            <li><a href="productlist.html">Kjoler</a></li>
+            <hr>
+            <li><a href="productlist.html">Halstørklæder</a></li>
+            <hr>
+            <li><a href="productlist.html">Tasker</a></li>
+            <hr>
+            <li><a href="productlist.html">Trøjer</a></li>
+            <hr>
+            <li><a href="productlist.html">Mundbind</a></li>
+            <hr>
+            <li><a href="productlist.html">Udsalg</a></li>
+            <hr>
+            <li><a href="contact.html">Kontakt</a></li>
+            <hr>
+            <li><a href="about.html">Om os</a></li>
+            <hr>
+            <li><a href="tos.html">Betingelser og vilkår</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="section_contact">
+            <h2>Kontakt os</h2>
+            <div class="section_wrapper">
+                <div class="col_info">
+                    <h3>Info</h3>
+                    <div class="info_line">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:+4526112587">+45 26 11 25 87</a>
+                    </div>
+                    <div class="info_line">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto: mh_malenehocke@outlook.dk">mh_malenehocke@outlook.dk</a>
+                    </div>
+                    <div class="info_line">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <a href="https://goo.gl/maps/1gLPK2zArrm6rWgG9">
+                            Nordre Frihavnsgade 10, 2100 København</a>
+                    </div>
+                </div>
+                <div class="col_form">
+                    <h3>Send os en besked</h3>
+                    <form>
+                        <div>
+                            <label for="email"></label>
+                            <input id="email" name="email" type="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <label for="subject"></label>
+                            <input id="subject" name="subject" type="text" placeholder="Emne">
+                        </div>
+                        <div>
+                            <label for="message"></label>
+                            <textarea id="message" name="message" type="text" placeholder="Skriv venligst din besked her"></textarea>
+                        </div>
+                        <div>
+                            <button class="pointer">SEND</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <a href="https://www.facebook.com/malenehockebrand/" class="footer_icon">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/malenehocke/?hl=da" class="footer_icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="mailto: mh_malenehocke@outlook.dk" class="footer_icon">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+        </div>
+        <p>Copyright © 2020 MALENE HOCKE.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,11 +1,21 @@
 body {
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
+#section_info,
+#section_items,
+#section_mailform {
+    margin: 0 7vw;
+    max-width: 1400px;
+}
+
+/*------------landing------------*/
+
 #videoBG {
-    position: absolute;
+    position: relative;
     z-index: -1;
-    width: 100%;
+    width: 100vw;
     height: auto;
     top: 0;
     left: 0;
@@ -18,14 +28,130 @@ body {
     }
 }
 
-#header {
-    position: fixed;
-    color: white;
-    font-size: 2rem;
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width: auto;
+        height: 100vh;
+    }
+}
+
+#video_text {
+    position: absolute;
+    text-align: center;
     width: 100%;
+    top: 20%;
+}
+
+#video_text h1 {
+    color: white;
+    margin-bottom: 20rem;
+}
+
+#video_text a {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: #B79697;
+    padding: 10px;
+    border: 2px solid #B79697;
+    text-decoration: none;
+
+}
+
+#video_text a:hover {
+    background: #B79697;
+    color: white;
+}
+
+/*------------items------------*/
+
+#section_items .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#section_items .row_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#section_items .item {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#items_button {
+    text-align: center;
+    margin: 3rem;
+}
+
+#items_button a {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: #B79697;
+    padding: 10px;
+    border: 2px solid #B79697;
+    text-decoration: none;
+
+}
+
+#items_button a:hover {
+    background: #B79697;
+    color: white;
+}
+
+/*------------mailform------------*/
+
+form {
+    margin-bottom: 3rem;
     text-align: center;
 }
 
-.active {
-    background: black;
+form label {
+    font-family: 'Roboto', sans-serif;
+}
+
+form input {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 10px;
+    border: 2px solid #B79697;
+    text-decoration: none;
+}
+
+form button {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: #B79697;
+    padding: 10px;
+    border: 2px solid #B79697;
+    text-decoration: none;
+}
+
+form button:hover {
+    background: #B79697;
+    color: white;
+}
+
+#mailform {
+    margin-top: 1rem;
+}
+
+/*------------mediaQ------------*/
+
+@media (min-width:769px) {}
+
+@media (min-width:1650px) {
+
+    #section_info,
+    #section_items,
+    #section_mailform {
+        margin: 0 auto;
+    }
 }

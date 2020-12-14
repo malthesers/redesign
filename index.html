@@ -5,22 +5,167 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malene Hocke</title>
-    <link rel="stylesheet" href="styles/front.css">
     <link rel="stylesheet" href="styles/mutual.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/front.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex" />
 </head>
 
 <body>
-    <header id="header">
+    <header id="header" class="active">
         <nav>
-            <a>Malene Hocke</a>
+            <div id="header_top">
+                <a class="header_icon icon_menu pointer">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <a class="header_icon icon_menuOff pointer hide">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+                <a href="index.html">MALENE HOCKE</a>
+                <a class="header_icon icon_search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+                <a class="header_icon icon_basket">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div id="header_bottom">
+                <a href="productlist.html">Jakker</a>
+                <a href="productlist.html">Kjoler</a>
+                <a href="productlist.html">Halstørklæder</a>
+                <a href="productlist.html">Tasker</a>
+                <a href="productlist.html">Trøjer</a>
+                <a href="productlist.html">Mundbind</a>
+                <a href="productlist.html">Udsalg</a>
+                <a href="contact.html">Kontakt</a>
+                <a href="about.html">Om os</a>
+                <a href="tos.html">Betingelser og vilkår</a>
+            </div>
         </nav>
+        <ul id="menu" class="hide">
+            <hr>
+            <li><a href="productlist.html">Jakker</a></li>
+            <hr>
+            <li><a href="productlist.html">Kjoler</a></li>
+            <hr>
+            <li><a href="productlist.html">Halstørklæder</a></li>
+            <hr>
+            <li><a href="productlist.html">Tasker</a></li>
+            <hr>
+            <li><a href="productlist.html">Trøjer</a></li>
+            <hr>
+            <li><a href="productlist.html">Mundbind</a></li>
+            <hr>
+            <li><a href="productlist.html">Udsalg</a></li>
+            <hr>
+            <li><a href="contact.html">Kontakt</a></li>
+            <hr>
+            <li><a href="about.html">Om os</a></li>
+            <hr>
+            <li><a href="tos.html">Betingelser og vilkår</a></li>
+        </ul>
     </header>
-    <video id="videoBG" autoplay loop muted>
-        <source src="baggrundsvideo/videoBG.mp4">
-    </video>
-    <script src="script.js"></script>
+    <main>
+        <section id="section_landing">
+            <div class="section_wrapper">
+                <video id="videoBG" autoplay loop muted>
+                    <source src="baggrundsvideo/videoBG.mp4">
+                </video>
+                <div id="video_text">
+                    <h1>MALENE HOCKE</h1>
+                    <a href="productpage.html">SE KOLLEKTION</a>
+                </div>
+            </div>
+        </section>
+        <section id="section_info">
+            <div class="section_wrapper">
+                <h2>Malene Hocke</h2>
+                <p>Since the very beginning it has been our philosophy to bring international trends from all over the world to Denmark and thereby to create luxury, which everyone can afford. The result has been strong collections which enables you to dress up and down - depending on whether you seek the strong rock chick look or the more romantic basis look.</p>
+            </div>
+        </section>
+        <section id="section_items">
+            <div class="section_wrapper">
+                <div class="row_items">
+                    <a href="productpage.html" class="item">
+                        <div class="top">
+                            <img src="produkter/hat1.jpg" alt="hat1">
+                            <h5>Grey Partisan Bucket Hat</h5>
+                            <h6>FALL/WINTER 20</h6>
+                        </div>
+                        <div class="bottom">
+                            <h6>199 DKK</h6>
+                        </div>
+                    </a>
+                    <a href="productpage.html" class="item">
+                        <div class="top">
+                            <img src="produkter/hat2.jpg" alt="hat2">
+                            <h5>Light Grey Bandana Bucket Hat</h5>
+                            <h6>FALL/WINTER 20</h6>
+                        </div>
+                        <div class="bottom">
+                            <h6>199 DKK</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="row_items">
+                    <a href="productpage.html" class="item">
+                        <div class="top">
+                            <img src="produkter/jakke1.jpg" alt="jakke1">
+                            <h5>Partisan Poncho</h5>
+                            <h6>FALL/WINTER 20</h6>
+                        </div>
+                        <div class="bottom">
+                            <h6>599 DKK</h6>
+                        </div>
+                    </a>
+                    <a href="productpage.html" class="item">
+                        <div class="top">
+                            <img src="produkter/jakke2.jpg" alt="jakke2">
+                            <h5>Quiltet Blue Ikkat Jacket</h5>
+                            <h6>FALL/WINTER 20</h6>
+                        </div>
+                        <div class="bottom">
+                            <h6>949 DKK</h6>
+                        </div>
+                    </a>
+                </div>
+                <div id="items_button">
+                    <a href="productpage.html">SE KOLLEKTION</a>
+                </div>
+            </div>
+        </section>
+        <section id="section_mailform">
+            <div class="section_wrapper">
+                <form>
+                    <label for="email">TILMÆLD DIG VORES NYHEDSBREV</label>
+                    <div id="mailform">
+                        <input id="email" name="email" type="email" placeholder="Skriv venligst din mail her">
+                        <button class="pointer">TILMÆLD</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <a href="https://www.facebook.com/malenehockebrand/" class="footer_icon">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/malenehocke/?hl=da" class="footer_icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="mailto: mh_malenehocke@outlook.dk" class="footer_icon">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+        </div>
+        <p>Copyright © 2020 MALENE HOCKE.</p>
+    </footer>
+    <script src="script_front.js"></script>
+    <script src="login.js"></script>
 </body>
 
 </html>
