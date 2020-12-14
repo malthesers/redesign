@@ -26,6 +26,13 @@ h3 {
 
 @media (min-width:1100px) {
     #section_tos {
+        margin: 0 7vw;
         padding-top: 150px;
+    }
+}
+
+@media (min-width:1650px) {
+    #section_tos {
+        margin: 0 auto;
     }
 }

@@ -41,7 +41,7 @@ body {
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 20%;
+    top: 80%;
 }
 
 #video_text h1 {
@@ -65,8 +65,12 @@ body {
 }
 
 header a,
-header .fa i {
+.fa {
     color: black;
+}
+
+footer .fa {
+    color: white;
 }
 
 .white {
