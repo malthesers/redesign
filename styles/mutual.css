@@ -24,7 +24,7 @@ img {
 
 /*--------------fonts----------------*/
 h1 {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 3rem;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 header a {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 1.6rem;
