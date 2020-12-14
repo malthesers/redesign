@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+img {
+    100%;
+}
+
+
+.row_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.item {
+    padding-right: 20px;
+    padding-left: 20px;
+}
