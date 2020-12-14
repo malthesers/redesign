@@ -21,22 +21,8 @@ body {
     left: 0;
 }
 
-iframe {
-    position: relative;
-    z-index: -1;
-    width: 100vw;
-    height: auto;
-    top: 0;
-    left: 0;
-}
-
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
-        width: 100%;
-        height: auto;
-    }
-
-    iframe {
         width: 100%;
         height: auto;
     }
@@ -44,11 +30,6 @@ iframe {
 
 @media (max-aspect-ratio: 16/9) {
     #videoBG {
-        width: auto;
-        height: 100vh;
-    }
-
-    iframe {
         width: auto;
         height: 100vh;
     }
