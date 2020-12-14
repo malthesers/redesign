@@ -81,13 +81,7 @@ form button {
     height: 30vw;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-@media (min-width:1100px) {
+@media (min-width:769px) {
     #section_contact {
         padding-top: 150px;
     }
@@ -99,6 +93,12 @@ footer {
 
     #message {
         height: 10vw;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 }
 
