@@ -1,6 +1,6 @@
 window.addEventListener("load", sidenVises);
 
-var whiteHeader = document.querySelectorAll("header a, header i, header p");
+const headerElements = document.querySelectorAll("header a, header i, header p");
 
 window.onscroll = function () {
     console.log("scroll");
@@ -8,20 +8,20 @@ window.onscroll = function () {
         document.querySelector("nav").classList.add("active");
 
         //Make header text and icons white
-        whiteHeader.forEach(function (makeHeaderWhite) {
-            makeHeaderWhite.classList.add("white");
-        })
+        headerElements.forEach(function (headerElement) {
+            headerElement.classList.add("white");
+        });
     } else {
         document.querySelector("nav").classList.remove("active");
 
         //Make header text and icons black
-        whiteHeader.forEach(function (makeHeaderBlack) {
-            makeHeaderBlack.classList.remove("white");
-        })
+        headerElements.forEach(function (headerElement) {
+            headerElement.classList.remove("white");
+        });
 
         hideMenu();
     }
-}
+};
 
 function sidenVises() {
     console.log("sidenVises");
@@ -43,9 +43,9 @@ function showMenu() {
 
 
     //Make header text and icons white
-    whiteHeader.forEach(function (makeHeaderWhite) {
-        makeHeaderWhite.classList.add("white");
-    })
+    headerElements.forEach(function (headerElement) {
+        headerElement.classList.add("white");
+    });
 }
 
 function hideMenu() {
@@ -65,9 +65,9 @@ function hideMenu() {
         document.querySelector("nav").classList.remove("active");
 
         //Make header text and icons black
-        whiteHeader.forEach(function (makeHeaderBlack) {
-            makeHeaderBlack.classList.remove("white");
-        })
+        headerElements.forEach(function (headerElement) {
+            headerElement.classList.remove("white");
+        });
     }
 
 }

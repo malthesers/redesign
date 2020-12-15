@@ -29,18 +29,6 @@ h3 {
 
 
 @media(min-width:769px) {
-    /*    .row_video {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 0 1rem;
-    }
-
-    .row_img {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 0 1rem;
-    }*/
-
     .col {
         padding: 0 1rem;
     }
