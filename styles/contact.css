@@ -46,6 +46,13 @@ h3 {
     text-decoration: none;
 }
 
+.kontaktbillede {
+    padding: 10px;
+    transform: translateY(-3px);
+    margin: 2px;
+
+}
+
 /*------------contactform------------*/
 
 .col_form {
