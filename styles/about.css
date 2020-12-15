@@ -18,6 +18,11 @@ p {
     height: auto;
 }
 
+.row_video,
+.row_img {
+    padding: 1rem 0;
+}
+
 h2 {
     text-align: center;
 }
@@ -39,21 +44,11 @@ h3 {
     .row_video {
         display: grid;
         grid-template-columns: 60% 40%;
-        padding: 0 1rem;
     }
 
     .row_img {
         display: grid;
         grid-template-columns: 40% 60%;
-        padding: 0 1rem;
-    }
-}
-
-@media (min-width:1150px) {
-
-    .row_video,
-    .row_img {
-        padding: 1rem;
     }
 }
 
