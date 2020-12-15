@@ -44,11 +44,6 @@ body {
     top: 80%;
 }
 
-#video_text h1 {
-    color: white;
-    margin-bottom: 20rem;
-}
-
 #video_text a {
     background: white;
     font-family: 'Roboto', sans-serif;
@@ -62,6 +57,12 @@ body {
 #video_text a:hover {
     background: #B79697;
     color: white;
+}
+
+#video_text img {
+    width: 50px;
+    height: auto;
+    margin-top: 10vh;
 }
 
 header a,
