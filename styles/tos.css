@@ -4,9 +4,18 @@ h3 {
     margin: 0.7rem auto;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 #section_tos a {
     color: #B79697;
     text-decoration: none;
+}
+
+.info_text {
+    text-align: center;
+    margin: 2rem auto;
 }
 
 @media (min-width:1100px) {
