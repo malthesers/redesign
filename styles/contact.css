@@ -30,11 +30,8 @@ h3 {
     text-decoration: none;
 }
 
-.kontaktbillede {
-    padding: 10px;
-    transform: translateY(-3px);
-    margin: 2px;
-
+.cols {
+    padding-bottom: 2rem;
 }
 
 /*------------contactform------------*/
@@ -74,19 +71,13 @@ form button {
 
 @media (min-width:769px) {
 
-    #section_contact .section_wrapper {
+    #section_contact .section_wrapper .cols {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     #message {
         height: 10vw;
-    }
-
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
     }
 }
 
