@@ -3,7 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-#section_info,
 #section_items,
 #section_mailform {
     margin: 0 7vw;
@@ -13,6 +12,10 @@ body {
 
 
 /*------------landing------------*/
+
+#section_landing {
+    margin-bottom: 2rem;
+}
 
 #videoBG {
     position: relative;
@@ -51,7 +54,6 @@ body {
     padding: 10px;
     border: 2px solid #B79697;
     text-decoration: none;
-
 }
 
 #video_text a:hover {
@@ -76,6 +78,56 @@ footer .fa {
 
 .white {
     color: white;
+}
+
+/*------------categories------------*/
+
+#section_categories .col,
+#section_categories .row {
+    position: relative;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+#img_dsk {
+    display: none;
+}
+
+#section_categories a {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: #B79697;
+    padding: 10px;
+    border: 2px solid #B79697;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#section_categories a:hover {
+    background: #B79697;
+    color: white;
+}
+
+#button_jacket,
+#button_bag {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#button_scarf {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#button_all {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /*------------items------------*/
@@ -113,7 +165,6 @@ footer .fa {
     padding: 10px;
     border: 2px solid #B79697;
     text-decoration: none;
-
 }
 
 #items_button a:hover {
@@ -161,9 +212,33 @@ form button:hover {
 
 /*------------mediaQ------------*/
 
-@media (min-width:769px) {}
+@media (min-width:769px) {
+
+    #section_categories {
+        margin: 0 7vw;
+    }
+
+    #section_categories .cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #section_categories .col,
+    #section_categories .row {
+        padding: 0.5rem;
+    }
+
+    #img_mob {
+        display: none;
+    }
+
+    #img_dsk {
+        display: inline-block;
+    }
+}
 
 @media (min-width: 1100px) {
+
     #section_items .grid_items {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -172,7 +247,6 @@ form button:hover {
 
 @media (min-width:1650px) {
 
-    #section_info,
     #section_items,
     #section_mailform {
         margin: 0 auto;

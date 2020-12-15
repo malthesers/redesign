@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header id="header" class="active">
+    <header id="header">
         <nav>
             <div id="header_top">
                 <a class="header_icon icon_menu pointer">
@@ -44,22 +44,32 @@
                 </b>
             </div>
         </nav>
-        <ul id="menu" class="hide">
-            <hr>
-            <li><a href="productlist.html">Jakker</a></li>
-            <hr>
-            <li><a href="productlist.html">Kjoler</a></li>
-            <hr>
-            <li><a href="productlist.html">Halstørklæder</a></li>
-            <hr>
-            <li><a href="productlist.html">Tasker</a></li>
-            <hr>
-            <li><a href="contact.html">Kontakt</a></li>
-            <hr>
-            <li><a href="about.html">Om os</a></li>
-            <hr>
-            <li><a href="tos.html">Betingelser og vilkår</a></li>
-        </ul>
+        <div id="menu" class="hide">
+            <ul>
+                <hr>
+                <br>
+                <li><a href="productlist.html">Jakker</a></li>
+                <li><a href="productlist.html">Kjoler</a></li>
+                <li><a href="productlist.html">Halstørklæder</a></li>
+                <li><a href="productlist.html">Tasker</a></li>
+                <br>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="about.html">Om os</a></li>
+                <li><a href="tos.html">Betingelser og vilkår</a></li>
+            </ul>
+            <div id="menu_icons">
+                <a href="https://www.facebook.com/malenehockebrand/" class="footer_icon">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/malenehocke/?hl=da" class="footer_icon">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="mailto: mh_malenehocke@outlook.dk" class="footer_icon">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+                <p>Copyright © 2020 MALENE HOCKE.</p>
+            </div>
+        </div>
     </header>
     <main>
         <section id="section_landing">
@@ -73,10 +83,27 @@
                 </div>
             </div>
         </section>
-        <section id="section_info">
+        <section id="section_categories">
             <div class="section_wrapper">
-                <h2>Malene Hocke</h2>
-                <p>Since the very beginning it has been our philosophy to bring international trends from all over the world to Denmark and thereby to create luxury, which everyone can afford. The result has been strong collections which enables you to dress up and down - depending on whether you seek the strong rock chick look or the more romantic basis look.</p>
+                <div class="cols">
+                    <div class="col">
+                        <a id="button_jacket" href="productlist.html">SE JAKKER</a>
+                        <img src="billeder/bro_efter2.jpg" alt="img_col1">
+                    </div>
+                    <div class="col">
+                        <a id="button_scarf" href="productlist.html">SE HALSTØRKLÆDER</a>
+                        <img src="billeder/dor333.jpg" alt="img_col2">
+                    </div>
+                    <div class="col">
+                        <a id="button_bag" href="productlist.html">SE TASKER</a>
+                        <img src="billeder/Smil2_efter.jpg" alt="img_col3">
+                    </div>
+                </div>
+                <div class="row">
+                    <img id="img_mob" src="billeder/havn_efter.jpg" alt="img_row_mobile">
+                    <img id="img_dsk" src="billeder/havn22_Efter.jpg" alt="img_row_desktop">
+                    <a id="button_all" href="productlist.html">SE KOLLEKTION</a>
+                </div>
             </div>
         </section>
         <section id="section_items">
