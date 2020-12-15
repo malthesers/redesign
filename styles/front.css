@@ -1,42 +1,28 @@
-body {
-    margin: 0 auto;
-    overflow-x: hidden;
-}
-
-#section_items,
-#section_mailform {
-    margin: 0 7vw;
-    max-width: 1400px;
-}
-
-
-
 /*------------landing------------*/
 
-#section_landing {
-    margin-bottom: 2rem;
+#video_landing {
+    height: 100vh;
+    overflow: hidden;
 }
 
-#videoBG {
+#video_background {
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: -1;
-    width: 100vw;
-    height: auto;
-    top: 0;
-    left: 0;
 }
 
 @media (min-aspect-ratio: 16/9) {
-    #videoBG {
+    #video_background {
         width: 100%;
         height: auto;
     }
 }
 
 @media (max-aspect-ratio: 16/9) {
-    #videoBG {
+    #video_background {
         width: auto;
-        height: 100vh;
+        height: 100%;
     }
 }
 
@@ -44,7 +30,7 @@ body {
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 80%;
+    bottom: 5%;
 }
 
 #video_text a {
@@ -82,11 +68,16 @@ footer .fa {
 
 /*------------categories------------*/
 
+#section_categories {
+    margin: 0;
+}
+
 #section_categories .col,
 #section_categories .row {
     position: relative;
     text-align: center;
     padding: 0.5rem 0;
+    display: inline-block;
 }
 
 #img_dsk {
@@ -133,13 +124,14 @@ footer .fa {
 /*------------items------------*/
 
 #section_items .grid_items {
-    display: grid;
-    grid-template-columns: 1fr;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 #section_items .row_items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: inline-flex;
+    white-space: normal;
+    width: 130%;
 }
 
 #section_items .item {
@@ -215,7 +207,7 @@ form button:hover {
 @media (min-width:769px) {
 
     #section_categories {
-        margin: 0 7vw;
+        margin: 0 auto;
     }
 
     #section_categories .cols {
@@ -242,6 +234,14 @@ form button:hover {
     #section_items .grid_items {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        overflow: visible;
+        white-space: normal;
+    }
+
+    #section_items .row_items {
+        display: inline-flex;
+        white-space: normal;
+        width: 100%;
     }
 }
 

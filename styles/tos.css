@@ -1,19 +1,3 @@
-header {
-    top: 0
-}
-
-#section_tos {
-    margin: 0 7vw;
-    padding-top: 75px;
-    max-width: 1400px;
-}
-
-h2 {
-    margin-top: 0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
 h3 {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.2rem;
@@ -21,19 +5,17 @@ h3 {
 }
 
 #section_tos a {
-    color: rosybrown;
+    color: #B79697;
     text-decoration: none;
 }
 
 @media (min-width:1100px) {
     #section_tos {
         margin: 0 7vw;
-        padding-top: 150px;
     }
-}
 
-@media (min-width:1650px) {
-    #section_tos {
-        margin: 0 auto;
+    @media (min-width:1650px) {
+        #section_tos {
+            margin: 0 auto;
+        }
     }
-}

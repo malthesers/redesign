@@ -2,6 +2,12 @@ body {
     margin: 0 auto;
 }
 
+section {
+    margin: 0 7vw;
+    padding-top: 100px;
+    max-width: 1400px;
+}
+
 img {
     width: 100%;
 }
@@ -29,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
 }
 
@@ -50,6 +56,28 @@ p {
     font-size: 1rem;
 }
 
+.header_case {
+    text-align: center;
+    background-color: #B79697;
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 3px solid;
+}
+
+@media (min-width: 900px) {
+    .header_case {
+        text-align: center;
+        background-color: #B79697;
+        color: white;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 83%;
+        border: 3px solid;
+    }
+}
+
 /*--------------header---------------*/
 #header {
     position: fixed;
@@ -68,6 +96,10 @@ header a {
     color: white;
     font-size: 1.6rem;
     display: inline-block;
+}
+
+header p {
+    color: white;
 }
 
 #header_bottom a {
