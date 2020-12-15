@@ -1,8 +1,12 @@
 h3 {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     text-align: center;
     margin: 0.7rem auto;
+}
+
+iframe {
+    width: 100%;
 }
 
 /*------------contactform------------*/
@@ -32,6 +36,16 @@ h3 {
 
 .cols {
     padding-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    display: inline-block;
 }
 
 /*------------contactform------------*/
@@ -73,11 +87,19 @@ form button {
 
     #section_contact .section_wrapper .cols {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #section_contact .section_wrapper .col_info {
+        padding-right: 1rem;
+    }
+
+    #section_contact .section_wrapper .col_form {
+        padding-left: 1rem;
     }
 
     #message {
-        height: 10vw;
+        height: 20rem;
     }
 }
 
