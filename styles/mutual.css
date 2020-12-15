@@ -55,8 +55,11 @@ p {
     position: fixed;
     width: 100%;
     text-align: center;
-    padding: 10px 0;
     z-index: 1;
+}
+
+nav {
+    padding: 10px 0;
 }
 
 header a {
@@ -110,8 +113,14 @@ header a {
 }
 
 #menu {
+    height: 100vh;
+    background: #B79697;
+}
+
+#menu ul {
     list-style-type: none;
     text-align: left;
+    margin: 0;
     padding: 0;
 }
 
@@ -127,6 +136,19 @@ header a {
 #menu hr {
     color: white;
     width: 100%;
+    margin: 0;
+}
+
+#menu_icons {
+    margin-top: 2rem;
+}
+
+@media (min-width: 769px) {
+
+    #menu,
+    #menu ul {
+        width: 15rem;
+    }
 }
 
 /*--------------footer---------------*/
