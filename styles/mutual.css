@@ -156,7 +156,7 @@ header p {
 }
 
 #menu li {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 #menu li a {
@@ -286,11 +286,11 @@ header p {
     #menu,
     #menu ul,
     #cart {
-        width: 20rem;
+        width: 30rem;
     }
 
     #menu_icons {
-        width: 20rem;
+        width: 30rem;
         bottom: 5rem;
     }
 }

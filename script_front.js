@@ -20,6 +20,8 @@ window.onscroll = function () {
         });
 
         hideMenu();
+        hideCart();
+        hideSearch();
     }
 };
 
