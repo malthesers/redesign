@@ -173,6 +173,7 @@ form {
 
 form label {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
 }
 
 form input {
@@ -182,6 +183,7 @@ form input {
     padding: 10px;
     border: 2px solid #B79697;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 form button {
@@ -191,6 +193,7 @@ form button {
     padding: 10px;
     border: 2px solid #B79697;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 form button:hover {
