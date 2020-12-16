@@ -243,7 +243,7 @@ header a {
     width: 100%;
 }
 
-#cart_button a {
+#cart_button p {
     background: white;
     font-family: 'Roboto', sans-serif;
     color: #B79697;
@@ -252,9 +252,10 @@ header a {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    font-size: 2rem;
 }
 
-#cart_button a:hover {
+#cart_button p:hover {
     background: #B79697;
     color: white;
 }
