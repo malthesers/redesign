@@ -194,6 +194,7 @@ form button {
     border: 2px solid #B79697;
     text-decoration: none;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 form button:hover {
