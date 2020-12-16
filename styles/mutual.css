@@ -16,17 +16,6 @@ img {
     box-sizing: border-box;
 }
 
-.hide {
-    display: none;
-}
-
-.invis {
-    opacity: 0;
-}
-
-.pointer {
-    cursor: pointer;
-}
 
 /*--------------fonts----------------*/
 h1 {
@@ -96,9 +85,19 @@ header a {
     color: white;
     font-size: 1.6rem;
     display: inline-block;
+    margin: 0;
 }
 
-header p {
+.header_icon {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 0;
+}
+
+#menu_icons p {
     color: white;
 }
 
@@ -308,4 +307,19 @@ footer {
 .footer_icon {
     margin: 10px;
     display: inline-block;
+}
+
+
+/*---------------utility----------------*/
+
+.hide {
+    display: none;
+}
+
+.invis {
+    opacity: 0;
+}
+
+.pointer {
+    cursor: pointer;
 }
