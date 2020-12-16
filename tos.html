@@ -26,11 +26,17 @@
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </a>
                 <a id="title" href="index.html">MALENE HOCKE</a>
-                <a class="header_icon icon_search">
+                <a class="header_icon icon_search pointer">
                     <i class="fa fa-search" aria-hidden="true"></i>
                 </a>
-                <a class="header_icon icon_basket">
+                <a class="header_icon icon_searchOff pointer hide">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+                <a class="header_icon icon_cart pointer">
                     <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </a>
+                <a class="header_icon icon_cartOff pointer hide">
+                    <i class="fa fa-times" aria-hidden="true"></i>
                 </a>
             </div>
             <div id="header_bottom">
@@ -67,6 +73,60 @@
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                 </a>
                 <p>Copyright © 2020 MALENE HOCKE.</p>
+            </div>
+        </div>
+        <div id="cart" class="hide">
+            <hr class="cart_hr_top">
+            <br>
+            <div class="cart_row">
+                <div class="cart_img cart_col">
+                    <img src="produkter/hat1.jpg" alt="hat_1">
+                </div>
+                <div class="cart_text cart_col">
+                    <div class="cart_top">
+                        <h4>Grey Partisan Bucket Hat</h4>
+                        <h5>FALL/WINTER 20</h5>
+                    </div>
+                    <div class="cart_bottom">
+                        <h6>199 DKK</h6>
+                    </div>
+                </div>
+            </div>
+            <hr class="cart_hr">
+            <div class="cart_row">
+                <div class="cart_img cart_col">
+                    <img src="produkter/hat1.jpg" alt="hat_1">
+                </div>
+                <div class="cart_text cart_col">
+                    <div class="cart_top">
+                        <h4>Grey Partisan Bucket Hat</h4>
+                        <h5>FALL/WINTER 20</h5>
+                    </div>
+                    <div class="cart_bottom">
+                        <h6>199 DKK</h6>
+                    </div>
+                </div>
+            </div>
+            <hr class="cart_hr">
+            <div class="cart_price">
+                <div class="cart_price_left">
+                    <h5>TOTAL</h5>
+                </div>
+                <div class="cart_price_right">
+                    <h5>398 DKK</h5>
+                </div>
+            </div>
+            <div id="cart_button">
+                <a>KØB NU</a>
+            </div>
+        </div>
+        <div id="search" class="hide">
+            <hr>
+            <div id="search_bar">
+                <form>
+                    <label for="search"></label>
+                    <input id="search" name="search" type="text" placeholder="Søg her">
+                </form>
             </div>
         </div>
     </header>

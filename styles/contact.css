@@ -54,11 +54,11 @@ iframe {
     line-height: 1.5rem;
 }
 
-form {
+#section_contact form {
     text-align: center;
 }
 
-form input,
+#section_contact form input,
 textarea {
     border: 2px solid #B79697;
     font-family: 'Roboto', sans-serif;
@@ -68,7 +68,7 @@ textarea {
     margin: 5px auto;
 }
 
-form button {
+#section_contact form button {
     font-family: 'Roboto', sans-serif;
     background: #B79697;
     font-size: 1.2rem;

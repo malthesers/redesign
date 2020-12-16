@@ -127,20 +127,19 @@ header p {
     position: absolute;
 }
 
-.icon_menu {
-    left: 15px;
-    display: inline-block;
-}
-
+.icon_menu,
 .icon_menuOff {
     left: 15px;
 }
 
-.icon_basket {
+
+.icon_cart,
+.icon_cartOff {
     right: 15px;
 }
 
-.icon_search {
+.icon_search,
+.icon_searchOff {
     right: 55px;
 }
 
@@ -165,21 +164,134 @@ header p {
     font-family: 'Roboto', sans-serif;
 }
 
-#menu hr {
+#menu hr,
+.cart_hr_top {
     color: white;
     width: 100%;
     margin: 0;
 }
 
+.cart_hr {
+    color: white;
+    margin: 0 1.5rem;
+}
+
 #menu_icons {
     margin-top: 2rem;
+    position: absolute;
+    width: 100%;
+    bottom: 5rem
+}
+
+#cart {
+    height: 100vh;
+    background: #B79697;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+.cart_text {
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart_text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+
+.cart_text h5 {
+    font-size: 1rem;
+}
+
+.cart_text h6 {
+    font-size: 1rem;
+    text-align: right;
+}
+
+.cart_row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+}
+
+.cart_col {
+    padding: 0.5rem;
+}
+
+.cart_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+}
+
+.cart_price div {
+    padding: 0.5rem;
+}
+
+#cart_button {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+#cart_button a {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    color: #B79697;
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#cart_button a:hover {
+    background: #B79697;
+    color: white;
+}
+
+#search {
+    background: #B79697;
+    text-align: center;
+}
+
+#search hr {
+    margin: 0;
+    color: white;
+}
+
+#search form input {
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    width: 80%;
+    background: white;
+    text-align: left;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
 
 @media (min-width: 769px) {
 
     #menu,
-    #menu ul {
-        width: 15rem;
+    #menu ul,
+    #cart {
+        width: 20rem;
+    }
+
+    #menu_icons {
+        width: 20rem;
+        bottom: 5rem;
     }
 }
 
